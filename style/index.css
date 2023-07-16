@@ -111,7 +111,10 @@ main{
 }
 
 /* feature section */
-
+.feature-contents .feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
 .feature-part{
     display: flex;
     margin-top: 100px;
@@ -122,6 +125,7 @@ main{
 .feature-picture-section img{
     width: 508px;
     height: 900px;
+    margin-left: 40px;
 }
 .feature-title{
     color: #131313;
@@ -151,7 +155,29 @@ main{
     font-size: 12px;
     font-weight: 400;
 }
-
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+.ten-years-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.ten-years-des{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2px;
+   
+}
 
 
 /* facts section */
@@ -267,6 +293,22 @@ padding: 30px;
         width: 160px;
         
     }
+    .feature-part {
+        flex-direction: column;
+        padding: 5px;
+      }
+      .feature-picture-section img {
+        width: 90%;
+        height: 900px;
+        margin-left:0px;
+      }
+      .ten-years-badge {
+        width: 90%;
+        padding: 5px;
+        text-align: center;
+        position: static;
+        bottom: 100px;
+    
 }
 
 /* header mediam device responsive section */
@@ -277,8 +319,11 @@ padding: 30px;
     }
     .team-feature-section {
        flex-direction: column;
-        align-items: center;
         padding: 0px;
+      }
+      .picture-section {
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
       }
       .description-section{
         text-align: center;
@@ -289,5 +334,9 @@ padding: 30px;
         align-items: center;
         gap: 20px;
       }
+      .feature-part {
+       flex-direction: column;
+        padding:0px;
+      }  
       
 }
