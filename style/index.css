@@ -110,6 +110,48 @@ main{
     font-weight: 400;
 }
 
+/* feature section */
+
+.feature-part{
+    display: flex;
+    margin-top: 100px;
+    padding: 0px 180px;
+    gap: 60px;
+
+}
+.feature-picture-section img{
+    width: 508px;
+    height: 900px;
+}
+.feature-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.feature-demo{
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400;
+}
+.feature-card-section{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.text-title{
+    color: #131313;
+    font-size: 15px;
+    font-weight: 600;
+}
+.text-descrp{
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 
 
 /* facts section */
@@ -240,6 +282,12 @@ padding: 30px;
       }
       .description-section{
         text-align: center;
+      }
+      .sopnsorts-card {
+        flex-direction: column;
+        padding: 5px 10px;
+        align-items: center;
+        gap: 20px;
       }
       
 }
